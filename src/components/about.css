@@ -1,0 +1,56 @@
+.githubid {
+  color: #0366d6;
+  text-decoration: none;
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+
+  border-radius: 50%;
+  background-color: #b4d5dc;
+  background-image: url("./images/githublogo.png"); /* add the path to your image file */
+  background-size: cover; /* make the image cover the entire link element */
+  background-position: center; /* set the line height to match the height of the link */
+}
+
+.linkednid {
+  color: #0366d6;
+  text-decoration: none;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background-color: #a88d8d;
+  background-image: url("./images/linkednlogo.png"); /* add the path to your image file */
+  background-size: cover; /* make the image cover the entire link element */
+  background-position: center; /* set the line height to match the height of the link */
+}
+.facebookid {
+  color: #0366d6;
+  text-decoration: none;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background-color: #a88d8d;
+  background-image: url("./images/facebooklogo.png"); /* add the path to your image file */
+  background-size: cover; /* make the image cover the entire link element */
+  background-position: center; /* set the line height to match the height of the link */
+}
+.instagramid {
+  color: #0366d6;
+  text-decoration: none;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background-color: #a88d8d;
+  background-image: url("./images/instagramlogo.png"); /* add the path to your image file */
+  background-size: cover; /* make the image cover the entire link element */
+  background-position: center; /* set the line height to match the height of the link */
+}
+.githubid .facebookid .linkednid .instagramid :hover {
+  opacity: 0.8; /* add a hover effect to reduce opacity */
+}

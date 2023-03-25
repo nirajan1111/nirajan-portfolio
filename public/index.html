@@ -2,42 +2,85 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
     <meta
-      name="description"
-      content="Web site created using create-react-app"
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    <meta name="theme-color" content="#000000" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/css-font-awsome.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/css-profile-card.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/css-download.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/css-main.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-M60JTK8Lb43kAzv+xARnphI9XUNzU6J5U6wy5U5ZlU6qHJbaply5mhwIc0o47+9XK5JFTC5vLZ5b5U5e3S2PiQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link
+      id="external-css"
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+      media="all"
+    />
+    <link
+      id="external-css"
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      media="all"
+    />
   </head>
+
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript> You need to enable JavaScript to run this app. </noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <script src="%PUBLIC_URL%/js/js-particles.min.js"></script>
+    <script src="%PUBLIC_URL%/js/js-particles-config.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="%PUBLIC_URL%/js/js-sweet-scroll.min.js"></script>
+    <!-- Import JS: Google Analytics -->
+    <script src="%PUBLIC_URL%/js/js-google-analytics.js"></script>
+    <!-- Import JS: Typed.js -->
+    <script src="%PUBLIC_URL%/js/js-typed.js"></script>
+    <script>
+      var typed = new Typed("#typed", {
+        strings: [
+          "Dotnet Developer",
+          "Fullstack Web-Developer",
+          "Machine Learning Expert",
+        ],
+        typeSpeed: 50,
+        backSpeed: 40,
+        backDelay: 1800,
+        smartBackspace: true,
+        loop: true,
+        showCursor: true,
+        contentType: null,
+      });
+    </script>
+    <!-- Bootstrap -->
+    <script
+      src="%PUBLIC_URL%/js/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="%PUBLIC_URL%/js/umd-popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="%PUBLIC_URL%/js/js-bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Import JS: Main Script -->
+    <script src="%PUBLIC_URL%/js/js-main.js"></script>
   </body>
 </html>
