@@ -100,7 +100,7 @@ export default function Cover() {
           <span className="site-title">NIRAJAN SAH</span>
           <div className="site-description">
             <p id="typed" className="typed">
-              WEBSITE DEVELOPER AND ML ENGINEER
+              WEB DEVELOPER AND ML ENGINEER
             </p>
           </div>
         </h1>
