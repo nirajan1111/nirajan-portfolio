@@ -1,5 +1,4 @@
 import "../styles.css";
-import SkillSection from "./skill_section";
 
 export default function Skills() {
   return (
