@@ -2,8 +2,20 @@ import "../styles.css";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import ExampleDoc from "./time.pdf";
+import Typed from "typed.js";
+import MyComponent from "./typed";
 
 export default function Cover() {
+  // var typed = new Typed("#typed", {
+  //   strings: ["Fullstack Web-Developer", "Machine Learning Expert"],
+  //   typeSpeed: 50,
+  //   backSpeed: 40,
+  //   backDelay: 1800,
+  //   smartBackspace: !0,
+  //   loop: !0,
+  //   showCursor: !0,
+  //   contentType: null,
+  // });
   const particlesInit = async (main) => {
     console.log(main);
     await loadFull(main);
@@ -99,9 +111,7 @@ export default function Cover() {
         <h1>
           <span className="site-title">NIRAJAN SAH</span>
           <div className="site-description">
-            <p id="typed" className="typed">
-              WEB DEVELOPER AND ML ENGINEER
-            </p>
+            <MyComponent />
           </div>
         </h1>
 
@@ -120,3 +130,7 @@ export default function Cover() {
     </div>
   );
 }
+
+// <p id="typed" className="typed">
+// Fullstack Web-Developer
+// </p>

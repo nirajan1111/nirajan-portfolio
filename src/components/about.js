@@ -72,8 +72,8 @@ export default function About() {
                     className="col-md-5 col-sm-6 mr-lg-2"
                     placeholder="Your Name"
                     name="uname"
-                    minlength="2"
-                    maxlength="50"
+                    minLength="2"
+                    maxLength="50"
                     required
                   />
                   <input
@@ -81,8 +81,8 @@ export default function About() {
                     placeholder="Your email"
                     type="email"
                     name="email"
-                    minlength="5"
-                    maxlength="50"
+                    minLength="5"
+                    maxLength="50"
                     required
                   />
                 </div>
@@ -91,7 +91,7 @@ export default function About() {
                     className="col"
                     placeholder="Say something..."
                     name="message"
-                    minlength="10"
+                    minLength="10"
                     required
                   ></textarea>
                 </div>
