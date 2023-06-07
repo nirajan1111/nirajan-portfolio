@@ -130,7 +130,3 @@ export default function Cover() {
     </div>
   );
 }
-
-// <p id="typed" className="typed">
-// Fullstack Web-Developer
-// </p>
