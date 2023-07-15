@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/nirajan-portfolio/static/css/main.6dbdbe11.css",
+    "main.js": "/nirajan-portfolio/static/js/main.8089db75.js",
+    "static/js/787.23f990af.chunk.js": "/nirajan-portfolio/static/js/787.23f990af.chunk.js",
+    "static/media/instagramlogo.png": "/nirajan-portfolio/static/media/instagramlogo.ad89d851caa30154a1ef.png",
+    "static/media/nirajan-portfolio.png": "/nirajan-portfolio/static/media/nirajan-portfolio.e9415d10ca846073b509.png",
+    "static/media/facebooklogo.png": "/nirajan-portfolio/static/media/facebooklogo.3cb08c9d44e0707a25e4.png",
+    "index.html": "/nirajan-portfolio/index.html",
+    "main.6dbdbe11.css.map": "/nirajan-portfolio/static/css/main.6dbdbe11.css.map",
+    "main.8089db75.js.map": "/nirajan-portfolio/static/js/main.8089db75.js.map",
+    "787.23f990af.chunk.js.map": "/nirajan-portfolio/static/js/787.23f990af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6dbdbe11.css",
+    "static/js/main.8089db75.js"
+  ]
+}
