@@ -99,9 +99,13 @@ export default function Skills() {
           <div className="skill-icon col-sm-6 col-md-4 col-lg-2">
             <i className="col devicon-github-original-wordmark colored"></i>
           </div>
+
         </div>
         <hr />
       </div>
+      <p>
+        Projects list coming soon
+      </p>
     </section>
   );
 }
