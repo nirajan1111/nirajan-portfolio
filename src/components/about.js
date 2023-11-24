@@ -1,7 +1,15 @@
 import "../styles.css";
 import "./about.css";
 import nirajan from "./images/nirajan-portfolio.png";
+import { Modal } from "react-bootstrap";
+import { useState } from "react";
+
+
 export default function About() {
+  const [showModal, setShowModal] = useState(false);
+  const toggleModal = () => {
+    setShowModal(!showModal);
+  };
   return (
     <section id="about">
       <div className="wrapper">
@@ -9,7 +17,6 @@ export default function About() {
           <div className="profile-card__img">
             <img src={nirajan} alt="profile card" />
           </div>
-
           <div className="profile-card__cnt js-profile-cnt">
             <div className="profile-card__name">Nirajan Sah</div>
             <div className="profile-card__txt">
@@ -52,7 +59,7 @@ export default function About() {
             </div>
 
             <div className="profile-card-ctr">
-              <button className="profile-card__button button--blue js-message-btn">
+              <button className="profile-card__button button--blue js-message-btn" onClick={toggleModal}>
                 Message
               </button>
               <button
@@ -63,18 +70,20 @@ export default function About() {
               </button>
             </div>
           </div>
-
-          <div className="profile-card-message js-message">
-            <form className="profile-card-form" action="send.php" method="POST">
+          <Modal show={showModal} className="profile-card-message js-message">
+            <form className="profile-card-form" action="https://formspree.io/f/mknllndr" method="POST">
+            <h2>Enter the required details</h2>
               <div className="container">
                 <div className="row">
                   <input
                     className="col-md-5 col-sm-6 mr-lg-2"
                     placeholder="Your Name"
                     name="uname"
-                    minLength="2"
-                    maxLength="50"
+                    minLength="4"
+                    maxLength="10"
                     required
+                    style={{ height: '40px', marginBottom: '10px' }} 
+
                   />
                   <input
                     className="col"
@@ -84,6 +93,7 @@ export default function About() {
                     minLength="5"
                     maxLength="50"
                     required
+                    style={{ height: '40px', marginBottom: '10px' }} 
                   />
                 </div>
                 <div className="row">
@@ -93,6 +103,8 @@ export default function About() {
                     name="message"
                     minLength="10"
                     required
+                    style={{ height: '80px' }}
+                    
                   ></textarea>
                 </div>
               </div>
@@ -106,14 +118,14 @@ export default function About() {
                   Send
                 </button>
 
-                <button className="profile-card__button button--gray js-message-close">
+                <button className="profile-card__button button--gray js-message-close" onClick={toggleModal}>
                   Cancel
                 </button>
               </div>
             </form>
 
             <div className="profile-card__overlay js-message-close"></div>
-          </div>
+          </Modal>
         </div>
       </div>
     </section>
