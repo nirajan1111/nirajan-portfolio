@@ -4,13 +4,12 @@ export default function Skills() {
   return (
     <section id="skills">
       <div className="container">
-        {/* <SkillSection heading="Languages" /> */}
         <div className="row justify-content-center">
           <h2 className="skill-title">Languages</h2>
         </div>
         <div className="row justify-content-center">
           <div className="skill-icon col-sm-6 col-md-6 col-lg-2">
-            <i className="devicon-dart-plain-wordmark colored"></i>
+            <i className="devicon-typescript-plain colored"></i>
           </div>
 
           <div className="skill-icon col-sm-6 col-md-6 col-lg-2">
@@ -22,9 +21,7 @@ export default function Skills() {
           <div className="skill-icon col-sm-6 col-md-6 col-lg-2">
             <i className="devicon-python-plain-wordmark colored"></i>
           </div>
-          <div className="skill-icon col-sm-6 col-md-6 col-lg-2">
-            <i className="devicon-html5-plain-wordmark colored"></i>
-          </div>
+          
           <div className="skill-icon col-sm-6 col-md-6 col-lg-2">
             <i className="devicon-css3-plain-wordmark colored"></i>
           </div>
@@ -44,8 +41,16 @@ export default function Skills() {
             <i className="devicon-react-plain colored"></i>
           </div>
           <div className="skill-icon col-sm-6 col-md-4 col-lg-2">
+          <i className="devicon-tailwindcss-plain colored"></i>
+        </div>
+          <div className="skill-icon col-sm-6 col-md-4 col-lg-2">
             <i className="devicon-tensorflow-original-wordmark colored"></i>
           </div>
+          <div className="skill-icon col-sm-6 col-md-4 col-lg-2">
+            <i className="devicon-nextjs-original-wordmark colored"></i>
+          </div>
+          
+          
 
           <div className="skill-icon col-sm-6 col-md-4 col-lg-2">
             <i className="col devicon-django-plain-wordmark colored"></i>
@@ -103,9 +108,7 @@ export default function Skills() {
         </div>
         <hr />
       </div>
-      <p>
-        Projects list coming soon
-      </p>
+     
     </section>
   );
 }

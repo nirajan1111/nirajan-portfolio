@@ -1,19 +1,19 @@
 .githubid {
 
-  background-image: url("./images/githublogo.png"); /* add the path to your image file */
-  background-size: cover; /* make the image cover the entire link element */
+  background-image: url("./images/githublogo.png");
+  background-size: cover; 
   background-position: center;
 }
 
 .linkednid {
-  background-image: url("./images/linkednlogo.png"); /* add the path to your image file */
-  background-size: cover; /* make the image cover the entire link element */
-  background-position: center; /* set the line height to match the height of the link */
+  background-image: url("./images/linkednlogo.png"); 
+  background-size: cover; 
+  background-position: center; 
 }
 .facebookid {
-  background-image: url("./images/facebooklogo.png"); /* add the path to your image file */
-  background-size: cover; /* make the image cover the entire link element */
-  background-position: center; /* set the line height to match the height of the link */
+  background-image: url("./images/facebooklogo.png");
+  background-size: cover; 
+  background-position: center; 
 }
 .facebookid:hover,
 .instagramid:hover,
@@ -35,10 +35,10 @@
   margin: 4px;
 }
 .instagramid {
-  background-image: url("./images/instagramlogo.png"); /* add the path to your image file */
-  background-size: cover; /* make the image cover the entire link element */
-  background-position: center; /* set the line height to match the height of the link */
+  background-image: url("./images/instagramlogo.png");
+  background-size: cover;
+  background-position: center;
 }
 .githubid .facebookid .linkednid .instagramid :hover {
-  opacity: 0.8; /* add a hover effect to reduce opacity */
+  opacity: 0.8; 
 }

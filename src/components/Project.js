@@ -41,7 +41,7 @@ const Projects = (props) => {
     <section id="portfolio">
       <div >
         <h1 className="section-title" style={{ color: "black" }}>
-          <span>{sectionName}</span>
+          <span >{sectionName}</span>
         </h1>
         <div >
           <div className="row mx-auto">{projects}</div>
