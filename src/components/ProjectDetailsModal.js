@@ -28,7 +28,7 @@ const ProjectDetailsModal = (props) => {
       <span>
         <div className="text-center">
           <i style={{ fontSize: "3rem" }} className={icons.class}>
-            <p style={{ fontSize: "0.3rem" }} className="text-center">
+            <p style={{ fontSize: "0.8rem" }} className="text-center">
               {icons.name}
             </p>
           </i>
@@ -84,7 +84,7 @@ const ProjectDetailsModal = (props) => {
             {img}
           </AwesomeSlider>
         </div>
-        <div className="col-md-10" style={{ margin: "auto" }}>
+        <div className="col-md-10" style={{ margin: "auto", fontSize:'40px' }}>
           <h3 style={{ padding: "5px 5px 0 5px" }}>
             {title}
             {url ? (

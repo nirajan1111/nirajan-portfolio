@@ -1,104 +1,130 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Nirajan Sah.",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 I'm Nirajan Sah.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "LingoQuest",
+      "startDate": "2023 aug",
+      "description": "LingoQuest is a transformative multiplayer quiz app designed for the preservation, promotion, and revitalization of endangered indigenous languages through an engaging gaming experience. This project aims to address the decline in interest among younger generations in indigenous languages while fostering cultural appreciation and inclusivity.",
+      "images": ["logo192.png", "logo192.png"],
+      "url": "https://github.com/anilstha1/LingoQuest",
+      "technologies": [
+        {
+          "class": "devicon-react-original colored",
+          "name": "React js"
+        },
+        {
+          "class": "devicon-nodejs-plain-wordmark colored",
+          "name": "Node js"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "JavaScript"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "LingoQuest",
-        "startDate": "2023 aug",
-        "description": "LingoQuest is a transformative multiplayer quiz app designed for the preservation, promotion, and revitalization of endangered indigenous languages through an engaging gaming experience. This project aims to address the decline in interest among younger generations in indigenous languages while fostering cultural appreciation and inclusivity.",
-        "images": [
-          "logo192.png",
-          "logo192.png"
-        ],
-        "url": "https://github.com/anilstha1/LingoQuest",
-        "technologies": [
-          {
-            "class": "devicon-react-original colored",
-            "name": "React js"
-          },
-          {
-            "class": "devicon-nodejs-plain-wordmark colored",
-            "name": "Node js"
-          },
-          {
-            "class": "devicon-javascript-plain colored",
-            "name": "JavaScript"
-          }
-          
-        ]
-      },
-      {
-        "title": "Stock Analyzer",
-        "startDate": "2021",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "logo192.png",
-          "logo192.png"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-c-plain colored",
-            "name": "C"
-          }
-        ]
-      },
-      {
-        "title": "HeadPhone store",
-        "startDate": "2020",
-        "description": "Personal project for study subject. I was responsible for testing ecommerce application",
-        "images": [
-          "logo192.png",
-          "logo192.png"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original colored",
-            "name": "React js"
-          },
-          {
-            "class": "devicon-django-plain colored",
-            "name": "Django"
-          }
-        ]
-      },
-      {
-        "title": "DocSense",
-        "startDate": "2022",
-        "description": "",
-        "images": [
-          "logo192.png",
-          "logo192.png"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-nextjs-original-wordmark colored",
-            "name": "Next js"
-          },
-          {
-            "class": "devicon-tailwindcss-plain colored",
-            "name": "Tailwind css"
-          },
-          {
-            "class": "devicon-typescript-plain colored",
-            "name": "Typescript"
-          }
-          ,
-          {
-            "class": "",
-            "name": "Prisma"
-          }
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Stock Analyzer",
+      "startDate": "2021",
+      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "images": ["logo192.png", "logo192.png"],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-c-plain colored",
+          "name": "C"
+        }
+      ]
+    },
+    {
+      "title": "HeadPhone store",
+      "startDate": "2020",
+      "description": "Personal project for study subject. I was responsible for testing ecommerce application",
+      "images": ["logo192.png", "logo192.png"],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-react-original colored",
+          "name": "React js"
+        },
+        {
+          "class": "devicon-django-plain colored",
+          "name": "Django"
+        }
+      ]
+    },
+    {
+      "title": "DocSense",
+      "startDate": "2022",
+      "description": "",
+      "images": ["logo192.png", "logo192.png"],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-nextjs-original-wordmark colored",
+          "name": "Next js"
+        },
+        {
+          "class": "devicon-tailwindcss-plain colored",
+          "name": "Tailwind css"
+        },
+        {
+          "class": "devicon-typescript-plain colored",
+          "name": "Typescript"
+        },
+        {
+          "class": "",
+          "name": "Prisma"
+        }
+      ]
+    },
+    {
+      "title": "Samrakshan",
+      "startDate": "2022",
+      "description": "",
+      "images": ["logo192.png", "logo192.png"],
+      "url": "https://github.com/suyoscar11/Sanrakshana",
+      "technologies": [
+        {
+          "class": "devicon-react-original colored",
+          "name": "React js"
+        },
+
+        {
+          "class": "",
+          "name": "Mapbox"
+        }
+      ]
+    },
+    {
+      "title": "TicTacToe",
+      "startDate": "2022",
+      "description": "",
+      "images": ["logo192.png", "logo192.png"],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-react-original colored",
+          "name": "React js"
+        },
+        {
+          "class": "",
+          "name": "p5.js"
+        },
+        {
+          "class": "devicon-javascript-plain colored",
+          "name": "JavaScript"
+        }
+       
+      ]
+    }
+  ]
+}

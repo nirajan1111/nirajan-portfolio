@@ -4,12 +4,10 @@ import './Project.scss'
 const Projects = (props) => {
   const [deps, setDeps] = useState({});
   const [detailsModalShow, setDetailsModalShow] = useState(false);
-
   const detailsModalOpen = (data) => {
     setDetailsModalShow(true);
     setDeps(data);
   };
-
   const detailsModalClose = () => setDetailsModalShow(false);
 
   if (props.resumeProjects && props.resumeBasicInfo) {
@@ -41,7 +39,6 @@ const Projects = (props) => {
 
   return (
     <section id="portfolio">
-    
       <div >
         <h1 className="section-title" style={{ color: "black" }}>
           <span>{sectionName}</span>
