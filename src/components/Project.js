@@ -38,7 +38,7 @@ const Projects = (props) => {
   }
 
   return (
-    <section id="portfolio">
+    <section id="project">
       <div >
         <h1 className="section-title" style={{ color: "black" }}>
           <span >{sectionName}</span>

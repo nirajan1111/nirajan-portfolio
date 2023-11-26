@@ -9,7 +9,7 @@ export default function MyComponent() {
     const typed = new Typed(el.current, {
       strings: [
         "<i>Machine Learning</i> Engineer",
-        "&amp; Full stack Web Developer.",
+        "&amp; Full stack Developer.",
       ],
       loop: !0,
       typeSpeed: 50,

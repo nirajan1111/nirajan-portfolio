@@ -64,15 +64,18 @@ export default function About() {
               </button>
               <button
                 className="profile-card__button button--orange"
-                href="https://www.upwork.com/freelancers/nirajan1111"
+
               >
-                Hire
+                <a className="profile-card__button button--orange" href="https://www.upwork.com/freelancers/~01165d2e3f86589672" target="blank">
+                  Hire
+                </a>
+
               </button>
             </div>
           </div>
           <Modal show={showModal} className="profile-card-message js-message">
             <form className="profile-card-form" action="https://formspree.io/f/mknllndr" method="POST">
-            <h2>Enter the required details</h2>
+              <h2>Enter the required details</h2>
               <div className="container">
                 <div className="row">
                   <input
@@ -82,7 +85,7 @@ export default function About() {
                     minLength="4"
                     maxLength="10"
                     required
-                    style={{ height: '40px', marginBottom: '10px' }} 
+                    style={{ height: '40px', marginBottom: '10px' }}
 
                   />
                   <input
@@ -93,7 +96,7 @@ export default function About() {
                     minLength="5"
                     maxLength="50"
                     required
-                    style={{ height: '40px', marginBottom: '10px' }} 
+                    style={{ height: '40px', marginBottom: '10px' }}
                   />
                 </div>
                 <div className="row">
@@ -104,7 +107,7 @@ export default function About() {
                     minLength="10"
                     required
                     style={{ height: '80px' }}
-                    
+
                   ></textarea>
                 </div>
               </div>

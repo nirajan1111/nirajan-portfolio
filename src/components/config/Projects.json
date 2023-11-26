@@ -14,7 +14,7 @@
       "title": "LingoQuest",
       "startDate": "2023 aug",
       "description": "LingoQuest is a transformative multiplayer quiz app designed for the preservation, promotion, and revitalization of endangered indigenous languages through an engaging gaming experience. This project aims to address the decline in interest among younger generations in indigenous languages while fostering cultural appreciation and inclusivity.",
-      "images": ["logo192.png", "logo192.png"],
+      "images": ["LingoQuest1.png", "LingoQuest2.png", "LingoQuest3.png"],
       "url": "https://github.com/anilstha1/LingoQuest",
       "technologies": [
         {
@@ -31,25 +31,13 @@
         }
       ]
     },
-    {
-      "title": "Stock Analyzer",
-      "startDate": "2021",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-      "images": ["logo192.png", "logo192.png"],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-c-plain colored",
-          "name": "C"
-        }
-      ]
-    },
+    
     {
       "title": "HeadPhone store",
       "startDate": "2020",
-      "description": "Personal project for study subject. I was responsible for testing ecommerce application",
-      "images": ["logo192.png", "logo192.png"],
-      "url": "https://github.com",
+      "description": "A djnago based ecommerce website for headphone store. It has features like add to cart, checkout, payment, order history, etc.",
+      "images": ["Ecommerce.png"],
+      "url": "https://github.com/nirajan1111/ecommerce",
       "technologies": [
         {
           "class": "devicon-react-original colored",
@@ -64,9 +52,9 @@
     {
       "title": "DocSense",
       "startDate": "2022",
-      "description": "",
-      "images": ["logo192.png", "logo192.png"],
-      "url": "https://github.com",
+      "description": "A pdf reader with an AI to analyse the content of pdf and provide the summary of the pdf.",
+      "images": ["Docusense1.png", "Docusense2.png", "Docusense3.png"],
+      "url": "https://github.com/nirajan1111/docSense",
       "technologies": [
         {
           "class": "devicon-nextjs-original-wordmark colored",
@@ -89,8 +77,8 @@
     {
       "title": "Samrakshan",
       "startDate": "2022",
-      "description": "",
-      "images": ["logo192.png", "logo192.png"],
+      "description": "An interactive visual map you can navigate to discover the hidden gems of Nepal.",
+      "images": ["samrakshan1.jpg", "samrakshan2.jpg"],
       "url": "https://github.com/suyoscar11/Sanrakshana",
       "technologies": [
         {
@@ -105,11 +93,24 @@
       ]
     },
     {
+      "title": "Stock Analyzer",
+      "startDate": "2021",
+      "description": "Stock trading has become one of the vital financial activities. Nonetheless, it is getting tougher day by day. In spite of such hassle in investment in our market, we can never get the desired price for stock trading. At a moment, it is up and the other moment, it is down. So, there seems to be a requirement of quick market analysis to trade safely. Sometimes it takes a whole day to reach a pick point value and it happens out of the blue. Many people have experienced such atrocities in the so called, hassle market. To come up with a targeted solution, although very small, “Stock Tracking System” program is built. It sums up to the easier mode of accessibility for us in the shares market. It is especially designed for the ease of use in stock value monitoring, where the user can enter a desired value for trading and the system utilizes the value to return result if the desired value is reached. However, this system is not only limited to tracking stock data but also displays the availability of active stocks and all the market parameters of a particular stock/share.",
+      "images": ["STS.png"],
+      "url": "https://github.com/nirajan1111/Stock-Trading-system",
+      "technologies": [
+        {
+          "class": "devicon-c-plain colored",
+          "name": "C"
+        }
+      ]
+    },
+    {
       "title": "TicTacToe",
       "startDate": "2022",
-      "description": "",
-      "images": ["logo192.png", "logo192.png"],
-      "url": "https://github.com",
+      "description": "A react based tic tac toe game using p5.js.",
+      "images": ["tictactoe.png"],
+      "url": "https://github.com/nirajan1111/tic_tac_toe",
       "technologies": [
         {
           "class": "devicon-react-original colored",
@@ -123,7 +124,6 @@
           "class": "devicon-javascript-plain colored",
           "name": "JavaScript"
         }
-       
       ]
     }
   ]

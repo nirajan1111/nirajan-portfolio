@@ -6,16 +6,7 @@ import Typed from "typed.js";
 import MyComponent from "./typed";
 
 export default function Cover() {
-  // var typed = new Typed("#typed", {
-  //   strings: ["Fullstack Web-Developer", "Machine Learning Expert"],
-  //   typeSpeed: 50,
-  //   backSpeed: 40,
-  //   backDelay: 1800,
-  //   smartBackspace: !0,
-  //   loop: !0,
-  //   showCursor: !0,
-  //   contentType: null,
-  // });
+ 
   const particlesInit = async (main) => {
     console.log(main);
     await loadFull(main);
@@ -124,6 +115,9 @@ export default function Cover() {
           <a className="link" href="#skills" data-scroll>
             Skills
           </a>
+          <a className="link" href="#project" data-scroll>
+          Project
+        </a>
         </div>
       </div>
       <a className="down" href="#about" data-scroll>
