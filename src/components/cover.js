@@ -2,7 +2,6 @@ import "../styles.css";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 // import ExampleDoc from "./time.pdf";
-import Typed from "typed.js";
 import MyComponent from "./typed";
 
 export default function Cover() {
@@ -93,11 +92,12 @@ export default function Cover() {
       />
 
 
-      <a a
+      <a 
         id="js-download"
         className="download"
         href="https://drive.google.com/file/d/1Lz0m8eZIeG7KRce9CpPdTUpVbX7a6euf/view?usp=drive_link"
         target="_blank"
+        rel="noreferrer"
       ></a>
 
       <div className="header">
